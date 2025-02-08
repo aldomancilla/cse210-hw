@@ -1,9 +1,14 @@
 using System;
-
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        List<Video> videos = CreateVideos.GenerateVideoList();
+        
+        foreach (var video in videos)
+        {
+            video.DisplayVideoInfo();
+            Console.WriteLine("--------------------------");
+        }
     }
 }
