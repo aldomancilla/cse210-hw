@@ -1,0 +1,4 @@
+0
+SimpleGoal,simple,simple,50,False
+EternalGoal,eternal,eternal,60
+ChecklistGoal,list,list,70,3,500,0
